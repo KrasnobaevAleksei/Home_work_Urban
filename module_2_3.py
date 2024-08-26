@@ -4,7 +4,7 @@ while i < len(my_list):
       if my_list[i] == 0:
         i += 1
         continue
-      else
+      else:
         print(my_list[i])
         i += 1
       if my_list[i] < 0:
