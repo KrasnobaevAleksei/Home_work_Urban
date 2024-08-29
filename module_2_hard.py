@@ -6,6 +6,4 @@ for i in range(1, n):
         if n % (i+j) == 0:
             list_.append(i)
             list_.append(j)
-        else:
-            continue
 print(*list_)
