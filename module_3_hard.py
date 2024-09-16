@@ -3,8 +3,7 @@ def calculate_structure_sum(args):
     for x in args:
         if isinstance(x, dict):
             x = list(x.keys()) + list(x.values())
-        if (not isinstance(x, list) and not isinstance(x, set) and not isinstance(x, tuple)
-                and not isinstance(x, dict)):
+        if (not isinstance(x, list) and not isinstance(x, set) and not isinstance(x, tuple)):
             if isinstance(x, str):
                 tot += len(x)
             else:
